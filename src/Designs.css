@@ -1,0 +1,205 @@
+:root {
+    --bluecolor: #11011E;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* body {
+    height: 100vh;
+    display: none;
+} */
+
+.mainbody {
+    padding: 30px;
+    width: 100%;
+    background-color: grey;
+    height: 100vh;
+}
+
+#usrdata {
+    position: absolute;
+    padding: 40px;
+    width: 25%;
+    height: 75vh;
+    border-radius: 5px;
+    text-align: center;
+    background-color: var(--bluecolor);
+    color: white;
+}
+
+#reposdata {
+    float: right;
+    /* padding: 10px 0; */
+    width: 72%;
+    height: 90vh;
+    border-radius: 5px;
+    background-color: var(--bluecolor);
+    color: white;
+}
+
+img {
+    /* background-image: url("https://media.istockphoto.com/photos/millennial-male-team-leader-organize-virtual-workshop-with-employees-picture-id1300972574?b=1&k=20&m=1300972574&s=170667a&w=0&h=2nBGC7tr0kWIU8zRQ3dMg-C5JLo9H2sNUuDjQ5mlYfo="); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.decsrp {
+    max-height: 130px;
+    background: transparent;
+    border: 1px solid grey;
+    color: white;
+    margin-top: 40px;
+    border-radius: 3px;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+    /* overflow: hidden; */
+}
+
+.nams {
+    margin-top: 30px;
+    line-height: 0.5;
+    font-size: 30px;
+}
+
+.txts {
+    line-height: 0.4;
+    font-size: 20px;
+}
+
+.icon {
+    line-height: 0.5;
+    margin-top: 16px;
+}
+
+.icn {
+    margin-right: 12px;
+    color: white;
+}
+
+.repo_title {
+    padding: 45px;
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.srch {
+    margin-top: 30px;
+    width: 25%;
+    margin-left: 420px;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+
+.srchbtn {
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 10px;
+}
+
+#hr_line {
+    width: 940px;
+    /* margin-left: -1px; */
+    margin-right: -0.5px;
+}
+
+.repodata {
+    overflow: auto;
+    width: 100%;
+    height: 80%;
+    /* overflow: hidden; */
+}
+
+.repodata::-webkit-scrollbar-track
+{
+  /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
+  border-radius: 10px;
+  background-color: white;
+}
+
+.repodata::-webkit-scrollbar
+{
+  width: 12px;
+  background-color: var(--bluecolor);
+}
+
+.repodata::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3); */
+  background-color: var(--bluecolor);;
+}
+
+
+.card {
+    width: 73%;
+    border-radius: 5px;
+    margin: 0 38px;
+    padding: 8px;
+    background: transparent;
+  }
+  
+  a:link {
+    text-decoration: none;
+    color: white;
+  }
+   a:hover {
+       text-decoration: none;
+       color: white;
+   }
+   a:visited {
+       text-decoration: none;
+       color: white;
+   }
+   a:active {
+       text-decoration: none;
+       color: white;
+   }
+
+  .nam {
+    display: block;
+    border: 1px solid grey;
+    padding-left: 30px;
+    border-radius: 5px;
+  }
+
+  .nm{
+    padding-top: 30px;
+    margin-top: 5px;
+    font-size: 25px;
+    line-height: 1;
+  }
+
+  .decsrptin {
+      font-size: 16px;
+      line-height: 1;
+  }
+  
+  .tag {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 15px;
+  }
+  
+  .btn {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+  }
+  
+  .btns {
+    border-radius: 20px;
+  }
+  

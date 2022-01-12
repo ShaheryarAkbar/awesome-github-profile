@@ -1,0 +1,41 @@
+.App {
+  padding: 10px;
+}
+
+/* .main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+} */
+.card {
+  
+  width: 50%;
+  border-radius: 5px;
+}
+
+.nam {
+  display: block;
+  border: 2px solid;
+  padding-left: 10px;
+
+}
+.nm{
+  margin-top: 5px;
+}
+
+.tag {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.btn {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+}
+
+.btns {
+  border-radius: 20px;
+}
+
