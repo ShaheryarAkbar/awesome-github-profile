@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/awesome-github-profile/static/css/main.90a686f1.css",
+    "main.js": "/awesome-github-profile/static/js/main.aebc8e2a.js",
+    "index.html": "/awesome-github-profile/index.html",
+    "main.90a686f1.css.map": "/awesome-github-profile/static/css/main.90a686f1.css.map",
+    "main.aebc8e2a.js.map": "/awesome-github-profile/static/js/main.aebc8e2a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90a686f1.css",
+    "static/js/main.aebc8e2a.js"
+  ]
+}
